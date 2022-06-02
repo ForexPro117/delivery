@@ -1,0 +1,31 @@
+.item {
+    padding: 20px;
+    width: 70%;
+}
+
+label {
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+span {
+    color: #009CF0;
+}
+
+.description {
+    color: #000000;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    border: #6e6e6e solid 2px;
+    padding: 8px;
+    width: 70%; /* Ширина слоя */
+    word-wrap: break-word;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}

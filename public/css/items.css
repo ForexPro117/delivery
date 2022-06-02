@@ -1,0 +1,84 @@
+.card {
+    width: 236px;
+    height: 189px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.form-select-search {
+    max-width: 300px;
+}
+
+
+.text {
+    color: #009CF0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    max-width:230px ;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.text:hover {
+    color: #ff6163;
+    cursor: pointer;
+}
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text-other {
+    color: #8f8f8f;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+/*
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+
+.list {
+    margin-top: 45px;
+    margin-left: 60px;
+}
+
+.company {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(149, 151, 153);
+}
+
+
+
+.area {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.exit {
+    margin-left: auto;
+    align-self: center;
+}
+
+.buton {
+    width: 70%;
+    align-self: center;
+}
+.buton-exit {
+    width: 70%;
+    align-self: center;
+    margin-left: 40px;
+}
+*/

@@ -1,0 +1,22 @@
+.logo_img{
+    width: 155px;
+    height: 40px;
+}
+.nav-pointer:hover{
+    cursor: pointer;
+}
+.link-light:hover{
+    color: #ff6163;
+}
+.link{
+    color: #009CF0;
+    text-decoration: none;
+}
+.link:hover {
+    color: #ff6163;
+    cursor: pointer;
+}
+.buton{
+
+    width: 70%;
+}
