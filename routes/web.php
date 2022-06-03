@@ -17,8 +17,8 @@ use Illuminate\Http\Request;
 
 
 Route::get('/', [AnnController::class, 'home'])
-    ->name('home');
-
+    ->name('home')
+    ->middleware('auth');
 Route::get('/announcement',[AnnController::class, 'create'])
     ->name('ann');
 Route::Post('/announcement',[AnnController::class, 'store'])

@@ -22,7 +22,7 @@ class RegisteredUserController extends Controller
      */
     public function create()
     {
-        return view('registration');
+        return view('reg');
     }
 
     public function createUser()
@@ -40,7 +40,8 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
+        dd($request->request);
+        /*$request->validate([
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
             'name' => 'required|string|max:60',
@@ -60,7 +61,7 @@ class RegisteredUserController extends Controller
 
         event(new Registered($user));
 
-        Auth::login($user);
+        Auth::login($user);*/
 
         return redirect('/');
     }
