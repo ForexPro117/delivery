@@ -7,17 +7,15 @@
         @csrf
         <div class="mb-3">
             <input type="text" class="form-control " name="code"
-                   placeholder="Электронная почта">
-            @error('email')
+                   placeholder="Код сотрудника">
+            @error('code')
             <label class="text-danger">{{ $message }}</label>
             @enderror
         </div>
         <div class="mb-3">
             <select class="form-select" name="role">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="admin">Администратор</option>
+                <option value="employee">Сотрудник</option>
             </select>
             @error('role')
             <label class="text-danger">{{ $message }}</label>
